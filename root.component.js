@@ -9,7 +9,7 @@ export class RootComponent extends Component {
   init(){
 
   }
-  
+
   refreshChildren(){
     this.refreshChild('Game');
   }
