@@ -1,0 +1,29 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "webpack": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codehub.esri.com/Training-Apps-Dev/hello-world.git"
+  },
+  "author": "Sheng Zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "http-server": "^0.11.1",
+    "style-loader": "^0.21.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-cli": "^6.26.0",
+    "http-server": "^0.11.1"
+  },
+  "description": ""
+}
