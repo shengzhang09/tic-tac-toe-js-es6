@@ -1,10 +1,10 @@
 {
   "name": "helloworld",
   "version": "1.0.0",
-  "main": "js/main.js",
+  "main": "src/js/main.js",
   "scripts": {
     "start": "http-server",
-    "webpack": "webpack -w"
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",

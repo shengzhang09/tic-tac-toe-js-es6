@@ -9,8 +9,7 @@ export class GameComponent extends Component {
         squares: Array(9).fill(''),
       }],
       stepNumber: 0,
-      xIsNext: true,
-      test: true
+      xIsNext: true
     };
   }
 
@@ -52,7 +51,7 @@ export class GameComponent extends Component {
   init(){
 
   }
-  
+
   render() {
     const history = this.state.history;
     const current = history[this.state.stepNumber];

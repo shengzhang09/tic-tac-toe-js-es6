@@ -1,6 +1,6 @@
 'use strict';
-import '../index.css';
-import {RootComponent} from '../root.component.js';
+import './index.css';
+import {RootComponent} from './root.component.js';
 
 
 console.log('js is working!');
